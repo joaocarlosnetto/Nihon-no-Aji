@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Titan One", sans-serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#logo{
+    margin: 10px 0px 10px 0px;
+}
+
+span#hamburguer{
+    display: block;
+    font-size: 2em;
+    float: right;
+    margin: -65px 30px 0px 0px;
+    cursor: pointer;
+}
+
+menu#menu{
+    display: none;
+    margin-top: -10;
+    width: 100%;
+}
+
+ul{
+    display: block;
+    text-align: center;
+    margin-right: 25px;
+    background-color: #e4d2c4;
+    width: 100%;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+a.links{
+    text-decoration: none;
+    color: black;
+}
+
+a.links:hover{
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+
+img#capa{
+    width: 100%;
+}
+
+div{
+    display: block;
+}
+
+div#banners{
+    margin-top: 3px;
+}
+
+div.divBanner{
+    width: 49.6%;
+    display: inline-block;
+}
+
+img.banner{
+    width: 100%;
+}
+
+img.banner:hover{
+    opacity: 0%;
+    transition: 0.4s;
+}
+
+div#orange:hover{
+    opacity: 100%;
+    background-color: #e56a34;
+    transition: 0.2s;
+}
+
+div#red:hover{
+    opacity: 100%;
+    background-color: #e35952;
+    transition: 0.2s;
+}
+
+div#bege:hover{
+    opacity: 100%;
+    background-color: #e4c6a4;
+    transition: 0.2s;
+}
+
+div#blue:hover{
+    opacity: 100%;
+    background-color: #95c4ea;
+    transition: 0.2s;
+}
+
+p{
+    display: block;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+img#pacote{
+    width: 100%;
+}
+
+@keyframes go-back {
+    0% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
