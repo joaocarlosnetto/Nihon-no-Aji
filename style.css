@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 *{
     padding: 0px;
     margin: 0px;
@@ -81,25 +84,25 @@ img.banner:hover{
 div#orange:hover{
     opacity: 100%;
     background-color: #e56a34;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 div#red:hover{
     opacity: 100%;
     background-color: #e35952;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 div#bege:hover{
     opacity: 100%;
     background-color: #e4c6a4;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 div#blue:hover{
     opacity: 100%;
     background-color: #95c4ea;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 p{

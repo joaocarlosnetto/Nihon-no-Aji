@@ -1,3 +1,164 @@
-@media screen  {
+@charset "UTF-8";
+
+/* Typical decive Breakpoints
+ telas pequenas: 200px-319px
+ celular: 320px-480px
+ tablets: 481px-768px
+ leptos: 769px 1024px
+ desltops: 1025px-1200
+ telas extra grandes, tv: 1201px para mais */
+
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+    div.divBanner{
+        width: 49.6%;
+        display: inline-block;
+    }
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    span#hamburguer{
+        display: none;
+    }
     
-}
+    menu#menu{
+        display: block;
+        margin-top: -65px;
+        width: 60%;
+        float: right;
+    }
+
+    ul{
+        display: inline-block;
+        background-color: white;
+        text-align: right;
+        margin-right: 0px;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    a#linkOrange:hover{
+        color: #e56a34;
+        transition: 0.3s;
+    }
+
+    a#linkRed:hover{
+        color: #e35952;
+        transition: 0.3s;
+    }
+
+    a#linkBege:hover{
+        color: #e4c6a4;
+        transition: 0.3s;
+    }
+
+    a#linkBlue:hover{
+        color: #95c4ea;
+        transition: 0.3s;
+    }
+
+    div.divBanner{
+        width: 24.6%;
+    }
+
+ }
+
+ @media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    span#hamburguer{
+        display: none;
+    }
+    
+    menu#menu{
+        display: block;
+        margin-top: -65px;
+        width: 60%;
+        float: right;
+    }
+
+    ul{
+        display: inline-block;
+        background-color: white;
+        text-align: right;
+        margin-right: 0px;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    a#linkOrange:hover{
+        color: #e56a34;
+        transition: 0.3s;
+    }
+
+    a#linkRed:hover{
+        color: #e35952;
+        transition: 0.3s;
+    }
+
+    a#linkBege:hover{
+        color: #e4c6a4;
+        transition: 0.3s;
+    }
+
+    a#linkBlue:hover{
+        color: #95c4ea;
+        transition: 0.3s;
+    }
+
+    div.divBanner{
+        width: 24.7%;
+    }
+ }
+
+ @media screen and (min-width: 1201px) {
+
+    span#hamburguer{
+        display: none;
+    }
+    
+    menu#menu{
+        display: block;
+        margin-top: -65px;
+        width: 60%;
+        float: right;
+    }
+
+    ul{
+        display: inline-block;
+        background-color: white;
+        text-align: right;
+        margin-right: 0px;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    a#linkOrange:hover{
+        color: #e56a34;
+        transition: 0.3s;
+    }
+
+    a#linkRed:hover{
+        color: #e35952;
+        transition: 0.3s;
+    }
+
+    a#linkBege:hover{
+        color: #e4c6a4;
+        transition: 0.3s;
+    }
+
+    a#linkBlue:hover{
+        color: #95c4ea;
+        transition: 0.3s;
+    }
+
+    div.divBanner{
+        width: 24.7%;
+    }
+ }
